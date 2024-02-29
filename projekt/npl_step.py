@@ -16,7 +16,7 @@ def clean_text(text):
   stopword = [stopword.strip() for stopword in open("./stopwords/stop_words_sve.txt")]
   return " ".join([word for word in text.split()if word not in stopword])
 
-text = "Jag är en sträng, OCH NI SKriver jag med STORA BOKSTÄVER 1987, honom som jag han!!! sommaren är kort. det regnar bort  "
+#text = "Jag är en sträng, OCH NI SKriver jag med STORA BOKSTÄVER 1987, honom som jag han!!! sommaren är kort. det regnar bort  "
 
-new_text = clean_text(text)
-print(new_text)
+#new_text = clean_text(text)
+#print(new_text)
